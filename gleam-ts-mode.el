@@ -85,7 +85,7 @@ A change to this setting only takes effect the next time the
 
 (defvar gleam-ts--grammar-revision
   (if (and (treesit-available-p) (< (treesit-library-abi-version) 15))
-      "v1.0.0"
+      "v1.1.0"
     "main")
   "Treesitter grammar (gleam-lang/tree-sitter-gleam repo) revision.")
 
